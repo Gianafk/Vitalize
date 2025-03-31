@@ -10,19 +10,61 @@
 </head>
 <body>
     <div class="tela">
-        <a id="voltar" href="principal.html"><img class="icon" src="voltar.png"></a> 
+        <a id="voltar" href="principal.html"><img class="icon" src="IMGs2/voltar.png" alt="voltar"></a> 
         <h2 class="fonte">Perfil Familiar</h2>
-        <div id="semdep"><img class="icon" src="semdependentes.png"></div>
-        <a href="pfamiliardep.html" id="criar"><img class="icon" src="add.png"></a>
-        <footer>
-            <div id="barra">
-                <div class="hover" id="lembretes"><img class="icons" src="lembretes.png"></div>
-                <div class="hover" id="pfamiliar"><img class="icons" src="pfamiliar.png"></div>
-                <div class="hover" id="home"><img class="icons" src="home.png"></div>
-                <div class="hover" id="historico"><img class="icons" src="historico.png"></div>
-                <div class="hover" id="perfil"><img class="icons" src="perfil.png"></div>
-            </div>
-        </footer>
+        <div id="semdep"><img class="icon" src="IMGs2/semdependentes.png" alt="sem dependentes"></div>
+        <a href="pfamiliardep.html" id="criar"><img class="icon" src="IMGs2/add.png" alt="criar"></a>
+            <footer>
+                <ul class="navegacao">
+                    <li class="list" id="lembretes">
+                        <a href="#">
+                            <span class="icons">
+                                <img src="imgs/lembretes.png">
+                            </span>
+                            <p class="texto">Lembretes</p>
+                            <span class="circulo"></span>
+                        </a>
+                    </li>
+                    <li class="list" id="pfamiliar">
+                        <a href="#">
+                            <span class="icons">
+                                <img src="imgs/pfamiliar.png">
+                            </span>
+                            <p class="texto">Perfil familiar</p>
+                            <span class="circulo"></span>
+                        </a>
+                    </li>
+                    <li class="list active" id="home">
+                        <a href="#">
+                            <span class="icons">
+                                <img src="imgs/home.png">
+                            </span>
+                            <p class="texto">Home</p>
+                            <span class="circulo"></span>
+                        </a>
+                    </li>
+                    <li class="list" id="historico">
+                        <a href="#">
+                            <span class="icons">
+                                <img src="imgs/historico.png">
+                            </span>
+                            <p class="texto">Histórico</p>
+                            <span class="circulo"></span>
+                        </a>
+                    </li>
+                    <li class="list" id="perfil">
+                        <a href="#">
+                            <span class="icons">
+                                <img src="imgs/perfil.png">
+                            </span>
+                            <p class="texto">Configurações</p>
+                            <span class="circulo"></span>
+                        </a>
+                    </li>
+                    <div class="selecionado"></div>
+                </ul>
+            </footer>
+        <script src="menu.js"></script>
     </div>
 
 </body>
