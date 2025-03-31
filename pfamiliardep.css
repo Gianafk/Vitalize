@@ -21,11 +21,15 @@
 }
 #depsection{
 width: 360px;
-height: 400px;
+height: 200px;
 align-self: center;
 border-radius: 25px;
-
+display: flex;
+flex-direction: column;
+justify-content: center;
+overflow-y: auto;
 }
+
 #criar{
     width: 75px;
     height: 80px;
@@ -33,7 +37,7 @@ border-radius: 25px;
     align-self: center;
     border-radius: 50px;
     align-self: center;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .icon{
     width: 100%;
